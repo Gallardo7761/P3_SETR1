@@ -1,0 +1,3 @@
+../Core/Src/HTS221.c:52:6:HTS221_UpdateCalibration	32	static
+../Core/Src/HTS221.c:98:6:HTS221_Init	32	static
+../Core/Src/HTS221.c:105:10:HTS221_Read	56	static
