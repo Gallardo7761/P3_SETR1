@@ -1,6 +1,6 @@
 ################################################################################
 # Automatically-generated file. Do not edit!
-# Toolchain: GNU Tools for STM32 (12.3.rel1)
+# Toolchain: GNU Tools for STM32 (13.3.rel1)
 ################################################################################
 
 -include ../makefile.init
@@ -60,8 +60,8 @@ all: main-build
 main-build: P3_SETR1.elf secondary-outputs
 
 # Tool invocations
-P3_SETR1.elf P3_SETR1.map: $(OBJS) $(USER_OBJS) C:\Users\Jose\STM32CubeIDE\workspace_1.17.0\P3_SETR1\STM32L475VGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "P3_SETR1.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\Jose\STM32CubeIDE\workspace_1.17.0\P3_SETR1\STM32L475VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="P3_SETR1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+P3_SETR1.elf P3_SETR1.map: $(OBJS) $(USER_OBJS) /home/jomaa/git/P3_SETR1/STM32L475VGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "P3_SETR1.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/home/jomaa/git/P3_SETR1/STM32L475VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="P3_SETR1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
